@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  max-width: 1920px;
+  padding: 25px 7vw;
+  color: white;
+  background-color: rgb(50, 78, 207);
+}
+ul {
+  margin-top: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+img {
+  border-radius: 50%;
+}
+.space-between-logo-navs {
+  width: 40%;
+}
+
+.upper {
+  margin-top: 50px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.upper .middle {
+  flex: 2;
+  min-width: 200px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.upper .middlep p {
+  text-align: center;
+}
+
+.upper .left .model1 {
+  position: relative;
+  left: 10px;
+  top: 170px;
+}
+
+.upper .left .model2 {
+  position: relative;
+  right: 10px;
+  top: 20px;
+}
+.upper .right .model3 {
+  position: relative;
+  left: 10px;
+  top: 180px;
+}
+.upper .right .model4 {
+  position: relative;
+  right: 10px;
+  top: 20px;
+}
+
+.lower {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 50px;
+  background-color: rgb(62, 92, 231);
+}
+
+.lower .up {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.lower .up .middle {
+  width: 7%;
+}
+
+.lower .up .left,
+.lower .up .right {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.lower .up .left .up {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.lower .up .left .up div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.lower .low {
+  position: relative;
+  left: 27%;
+  text-align: left;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lower .low .up {
+  position: relative;
+  right: 40px;
+  margin-bottom: 40px;
+}
+.lower .low .up h1 {
+  line-height: 45px;
+}
