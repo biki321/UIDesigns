@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -8,6 +10,7 @@ body {
   padding: 25px 7vw;
   color: white;
   background-color: rgb(50, 78, 207);
+  font-family: "Roboto";
 }
 ul {
   margin-top: 30px;
@@ -17,6 +20,14 @@ ul {
 }
 li {
   color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+li.logo {
+  font-weight: bold;
+}
+p {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 14px;
 }
 
 img {
@@ -34,16 +45,19 @@ img {
 }
 
 .upper .middle {
+  padding-top: 40px;
+  padding-bottom: 40px;
   flex: 2;
   min-width: 200px;
   max-width: 400px;
+  font-size: 1.4em;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
-.upper .middlep p {
+.upper .middle p {
   text-align: center;
 }
 
@@ -113,7 +127,7 @@ img {
 .lower .low {
   position: relative;
   left: 27%;
-  text-align: left;
+
   height: 300px;
   width: 350px;
   display: flex;
@@ -125,8 +139,41 @@ img {
 .lower .low .up {
   position: relative;
   right: 40px;
-  margin-bottom: 40px;
+}
+.lower .low p {
+  position: relative;
+  right: 10px;
+}
+.lower .low button {
+  position: relative;
+  right: 100px;
 }
 .lower .low .up h1 {
   line-height: 45px;
+}
+
+.button {
+  box-sizing: content-box;
+  background-color: rgb(255, 131, 152);
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 14px;
+  box-shadow: none;
+  outline: none;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: rgb(255, 0, 72);
+}
+
+.button:active {
+  border-style: outset;
 }
